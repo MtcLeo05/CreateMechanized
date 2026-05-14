@@ -4,7 +4,7 @@
 	"parent": "block/cube",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "create_mechanized:item/auto_terra_plate"
+		"0": "create_mechanized:block/botania/auto_terra_plate"
 	},
 	"elements": [
 		{

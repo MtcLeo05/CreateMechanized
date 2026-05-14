@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "create_mechanized:item/unetched_rune"
+    "layer0": "create_mechanized:item/botania/unetched_rune"
   }
 }

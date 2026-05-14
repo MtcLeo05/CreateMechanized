@@ -116,9 +116,9 @@ public class CMBotaniaModule implements IModule {
     }
     
     public static void registerModel(ModelEvent.RegisterAdditional event) {
-        event.register(CMConstants.modLoc("block/spout/top"));
-        event.register(CMConstants.modLoc("block/spout/middle"));
-        event.register(CMConstants.modLoc("block/spout/bottom"));
+        event.register(CMConstants.modLoc("block/botania/spout/top"));
+        event.register(CMConstants.modLoc("block/botania/spout/middle"));
+        event.register(CMConstants.modLoc("block/botania/spout/bottom"));
         event.register(CMConstants.modLoc("block/shaft_tiny"));
         event.register(CMConstants.modLoc("block/trading_rift"));
     }

@@ -1,0 +1,6 @@
+// 1.20.1	2026-05-14T19:04:54.0586123	Tags for minecraft:block mod id create_mechanized
+fbbb019fc04e901b9a66bf895b556e43c968260f data/minecraft/tags/blocks/mineable/pickaxe.json
+649c7b781832fae284b8a7afbfe9f67c176451b9 data/tconstruct/tags/blocks/fuel_tanks.json
+3f326a0c7cb7c82347d2b423cc97aac435e15c15 data/tconstruct/tags/blocks/smeltery.json
+3f326a0c7cb7c82347d2b423cc97aac435e15c15 data/tconstruct/tags/blocks/smeltery/tanks.json
+3f326a0c7cb7c82347d2b423cc97aac435e15c15 data/tconstruct/tags/blocks/smeltery/wall.json

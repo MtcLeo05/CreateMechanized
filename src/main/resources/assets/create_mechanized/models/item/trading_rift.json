@@ -4,7 +4,7 @@
 	"parent": "block/cube",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "create_mechanized:item/trading_base"
+		"1": "create_mechanized:block/botania/trading_base"
 	},
 	"elements": [
 		{

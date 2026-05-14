@@ -4,8 +4,8 @@
 	"parent": "block/cube",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "create_mechanized:item/trade_mana_pedestal",
-		"particle": "create_mechanized:item/trade_mana_pedestal"
+		"0": "create_mechanized:block/botania/trade_mana_pedestal",
+		"particle": "create_mechanized:block/botania/trade_mana_pedestal"
 	},
 	"elements": [
 		{

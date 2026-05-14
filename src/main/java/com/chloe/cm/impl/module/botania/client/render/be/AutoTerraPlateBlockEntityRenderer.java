@@ -39,7 +39,7 @@ import java.util.Random;
 
 public class AutoTerraPlateBlockEntityRenderer extends KineticBlockEntityRenderer<AutoTerraPlateBlockEntity> {
     private final AutoTerraPlateModel model;
-    private final ResourceLocation texture = CMConstants.modLoc("textures/item/auto_terra_plate.png");
+    private final ResourceLocation texture = CMConstants.modLoc("textures/block/botania/auto_terra_plate.png");
     private final TextureAtlasSprite waterSprite;
     
     public AutoTerraPlateBlockEntityRenderer(BlockEntityRendererProvider.Context context) {

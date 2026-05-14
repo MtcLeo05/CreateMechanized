@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "create_mechanized:item/auto_terra_plate"
+      "model": "create_mechanized:block/auto_terra_plate"
     }
   }
 }

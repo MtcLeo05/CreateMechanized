@@ -21,8 +21,8 @@ import java.util.Random;
 public class TradeManaPedestalBlockEntityRenderer extends SafeBlockEntityRenderer<TradeManaPedestalBlockEntity> {
     
     private final TradeManaPedestalModel model;
-    private final ResourceLocation texture = CMConstants.modLoc("textures/item/trade_mana_pedestal.png");
-    private final ResourceLocation textureAngry = CMConstants.modLoc("textures/item/trade_mana_pedestal_angry.png");
+    private final ResourceLocation texture = CMConstants.modLoc("textures/block/botania/trade_mana_pedestal.png");
+    private final ResourceLocation textureAngry = CMConstants.modLoc("textures/block/botania/trade_mana_pedestal_angry.png");
     
     public TradeManaPedestalBlockEntityRenderer(BlockEntityRendererProvider.Context context) {
         this.model = new TradeManaPedestalModel(context.bakeLayer(TradeManaPedestalModel.LAYER_LOCATION));

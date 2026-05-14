@@ -5,8 +5,8 @@
 	"render_type": "cutout",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "create_mechanized:item/mana_spout",
-		"3": "create_mechanized:item/mana_spout_nozzle"
+		"0": "create_mechanized:block/botania/mana_spout",
+		"3": "create_mechanized:block/botania/mana_spout_nozzle"
 	},
 	"elements": [
 		{

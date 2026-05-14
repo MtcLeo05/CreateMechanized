@@ -32,9 +32,9 @@ public class ManaSpoutBlockEntityRenderer extends SafeBlockEntityRenderer<ManaSp
     
     public static final PartialModel[] BITS =
         {
-            block("spout/top"),
-            block("spout/middle"),
-            block("spout/bottom")
+            block("botania/spout/top"),
+            block("botania/spout/middle"),
+            block("botania/spout/bottom")
         };
     
     @Override

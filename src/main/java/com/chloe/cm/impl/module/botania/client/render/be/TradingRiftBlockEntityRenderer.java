@@ -29,7 +29,7 @@ import java.util.List;
 
 public class TradingRiftBlockEntityRenderer extends KineticBlockEntityRenderer<TradingRiftBlockEntity> {
     private final TradingBaseModel model;
-    private final ResourceLocation texture = CMConstants.modLoc("textures/item/trading_base.png");
+    private final ResourceLocation texture = CMConstants.modLoc("textures/block/botania/trading_base.png");
     
     public TradingRiftBlockEntityRenderer(BlockEntityRendererProvider.Context context) {
         super(context);

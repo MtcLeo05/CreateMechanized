@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "create_mechanized:item/mana_spout"
+      "model": "create_mechanized:block/mana_spout"
     }
   }
 }

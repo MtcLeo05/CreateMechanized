@@ -3,6 +3,6 @@
 	"parent": "block/block",
 	"texture_size": [32, 32],
 	"textures": {
-		"particle": "create_mechanized:item/trade_mana_pedestal"
+		"particle": "create_mechanized:block/botania/trade_mana_pedestal"
 	}
 }

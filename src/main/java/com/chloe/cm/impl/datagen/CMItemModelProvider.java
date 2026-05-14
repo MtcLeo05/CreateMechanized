@@ -17,20 +17,18 @@ public class CMItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
     
-        simpleItem(CMBotaniaItems.RUNIC_TEMPLATE);
-        simpleItem(CMBotaniaItems.UNETCHED_RUNE);
+        simpleItem(CMBotaniaItems.RUNIC_TEMPLATE, "botania");
+        simpleItem(CMBotaniaItems.UNETCHED_RUNE, "botania");
         
-        
-    
     }
 
-    private void simpleItem(RegistryObject<? extends Item> item) {
-        simpleItem(item.getId().getPath());
+    private void simpleItem(RegistryObject<? extends Item> item, String nms) {
+        simpleItem(item.getId().getPath(), nms);
     }
 
-    private void simpleItem(String name) {
+    private void simpleItem(String name, String nms) {
         withExistingParent(name,
             ResourceLocation.withDefaultNamespace("item/generated")).texture("layer0",
-            CMConstants.modLoc("item/" + name));
+            CMConstants.modLoc("item/" + nms + "/" + name));
     }
 }

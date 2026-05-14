@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "create_mechanized:item/trading_rift"
+      "model": "create_mechanized:block/trading_rift"
     }
   }
 }

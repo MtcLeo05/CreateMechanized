@@ -4,6 +4,6 @@
 	"parent": "block/block",
 	"texture_size": [32, 32],
 	"textures": {
-		"particle": "create_mechanized:item/trading_base"
+		"particle": "create_mechanized:block/botania/trading_base"
 	}
 }

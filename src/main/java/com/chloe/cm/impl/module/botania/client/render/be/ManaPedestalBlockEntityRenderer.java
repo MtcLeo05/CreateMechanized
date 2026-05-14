@@ -21,8 +21,8 @@ import java.util.Random;
 public class ManaPedestalBlockEntityRenderer extends SafeBlockEntityRenderer<ManaPedestalBlockEntity> {
     
     private final ManaPedestalModel model;
-    private final ResourceLocation texture = CMConstants.modLoc("textures/item/mana_pedestal.png");
-    private final ResourceLocation textureAngry = CMConstants.modLoc("textures/item/mana_pedestal_angry.png");
+    private final ResourceLocation texture = CMConstants.modLoc("textures/block/botania/mana_pedestal.png");
+    private final ResourceLocation textureAngry = CMConstants.modLoc("textures/block/botania/mana_pedestal_angry.png");
     
     public ManaPedestalBlockEntityRenderer(BlockEntityRendererProvider.Context context) {
         this.model = new ManaPedestalModel(context.bakeLayer(ManaPedestalModel.LAYER_LOCATION));

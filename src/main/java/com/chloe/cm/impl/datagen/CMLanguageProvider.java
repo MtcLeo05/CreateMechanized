@@ -143,7 +143,14 @@ public class CMLanguageProvider extends LanguageProvider {
         this.add(CMConstants.MODID + ".ponder.tconstruct/melter_basic_burner.text_5", "Seething Basic Burners will provide 2.2x the heat a bucket of Lava while active.");
         this.add(CMConstants.MODID + ".ponder.tconstruct/melter_basic_burner.text_6", "All Heat level are considered fluids, and as such can interact with all Fluid based constructs.");
         this.add(CMConstants.MODID + ".ponder.tconstruct/melter_basic_burner.text_7", "Burners are theoretically infinite, as long as they are powered.");
-        
+
+        this.add(CMConstants.MODID + ".ponder.tconstruct/seared_burner.header", "Heat the Seared Smeltery, the Create way.");
+        this.add(CMConstants.MODID + ".ponder.tconstruct/seared_burner.text_1", "You can use a Seared Burner to heat your smeltery.");
+        this.add(CMConstants.MODID + ".ponder.tconstruct/seared_burner.text_2", "The efficiency will change based on the Burner's Heat level.");
+        this.add(CMConstants.MODID + ".ponder.tconstruct/seared_burner.text_3", "The Seared Burner takes the place of the tank, it not suggested having any other tank / burner with it.");
+        this.add(CMConstants.MODID + ".ponder.tconstruct/seared_burner.text_4", "It takes any fuel a Blazing Burner can take, including super-heating ones.");
+        this.add(CMConstants.MODID + ".ponder.tconstruct/seared_burner.text_5", "You can right click it with a wrench to cycle the seared style, to fit it with your smeltery.");
+
         new PonderLocalization().provideLang(CMConstants.MODID, this::add);
     }
 }
