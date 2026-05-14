@@ -1,7 +1,0 @@
-// 1.20.1	2026-05-14T19:04:54.0556122	Loot Tables
-556ec25cb99f7b6883386d845a4cdc8516cc72bb data/create_mechanized/loot_tables/blocks/auto_terra_plate.json
-1882d728ddabf68812e2130bbcac95443fdd07fc data/create_mechanized/loot_tables/blocks/mana_pedestal.json
-4e1a11dcf5a31cd4be305bd9c32c04beab89261d data/create_mechanized/loot_tables/blocks/mana_spout.json
-5f96900a4db5ff6e000c9adb86ba003ea55fe554 data/create_mechanized/loot_tables/blocks/seared_burner.json
-5907212cec7ac2b9b4c4daf9f19bccd5c7323230 data/create_mechanized/loot_tables/blocks/trade_mana_pedestal.json
-c72183ee5084b6de86d65c3ebd69d8950b9a60ed data/create_mechanized/loot_tables/blocks/trading_rift.json
