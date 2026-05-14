@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.chloe.cm.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "create_mechanized.refmap.json",
+  "mixins": [
+    "DepotBehaviourAccessor",
+    "ProcessingRecipeBuilderAccessor",
+    "ProcessingRecipeParamsAccessor",
+    "ReloadableServerResourcesMixin",
+    "botania.PylonBlockEntityAccessor",
+    "botania.PylonBlockEntityMixin",
+    "createlowheated.BasicBurnerBlockEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
