@@ -1,0 +1,40 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "botania"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "L": {
+            "item": "minecraft:lapis_block"
+          },
+          "P": {
+            "item": "botania:terra_plate"
+          },
+          "R": {
+            "item": "botania:livingrock"
+          },
+          "T": {
+            "item": "botania:terrasteel_ingot"
+          }
+        },
+        "pattern": [
+          "RTR",
+          "LPL",
+          "RLR"
+        ],
+        "result": {
+          "item": "create_mechanized:auto_terra_plate"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "values": [
+    "create_mechanized:mana_spout",
+    "create_mechanized:mana_pedestal",
+    "create_mechanized:auto_terra_plate",
+    "create_mechanized:trading_rift",
+    "create_mechanized:trade_mana_pedestal",
+    "create_mechanized:seared_burner"
+  ]
+}

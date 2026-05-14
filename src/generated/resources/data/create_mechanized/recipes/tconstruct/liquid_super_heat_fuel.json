@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting_fuel",
+  "duration": 1,
+  "fluid": {
+    "amount": 1,
+    "fluid": "create_mechanized:liquid_super_heat"
+  },
+  "rate": 22,
+  "temperature": 2200
+}

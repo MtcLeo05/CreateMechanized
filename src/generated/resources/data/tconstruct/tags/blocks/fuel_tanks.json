@@ -1,0 +1,7 @@
+{
+  "values": [
+    "create:blaze_burner",
+    "create:lit_blaze_burner",
+    "createlowheated:basic_burner"
+  ]
+}

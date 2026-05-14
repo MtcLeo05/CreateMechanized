@@ -1,0 +1,43 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "botania"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "D": {
+            "item": "botania:dragonstone_block"
+          },
+          "E": {
+            "item": "botania:elementium_block"
+          },
+          "P": {
+            "item": "botania:alfheim_portal"
+          },
+          "R": {
+            "item": "botania:livingrock"
+          },
+          "T": {
+            "item": "botania:pixie_dust"
+          }
+        },
+        "pattern": [
+          "RTR",
+          "EPE",
+          "RDR"
+        ],
+        "result": {
+          "item": "create_mechanized:trading_rift"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "botania"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "G": {
+            "item": "botania:mana_glass"
+          },
+          "L": {
+            "item": "botania:livingrock"
+          },
+          "P": {
+            "item": "botania:mana_pool"
+          },
+          "p": {
+            "item": "botania:livingwood_planks"
+          }
+        },
+        "pattern": [
+          " L ",
+          "GPG",
+          " p "
+        ],
+        "result": {
+          "item": "create_mechanized:mana_spout"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

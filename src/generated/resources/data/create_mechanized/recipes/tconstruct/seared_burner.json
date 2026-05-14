@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "tconstruct"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "B": {
+            "item": "create:blaze_burner"
+          },
+          "S": {
+            "item": "tconstruct:seared_brick"
+          }
+        },
+        "pattern": [
+          "SSS",
+          "SBS",
+          "SSS"
+        ],
+        "result": {
+          "item": "create_mechanized:seared_burner"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}
