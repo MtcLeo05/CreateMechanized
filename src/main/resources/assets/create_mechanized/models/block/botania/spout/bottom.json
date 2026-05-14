@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"0": "create_mechanized:item/mana_spout_nozzle",
-		"particle": "create_mechanized:item/mana_spout_nozzle"
+		"0": "create_mechanized:block/botania/mana_spout_nozzle",
+		"particle": "create_mechanized:block/botania/mana_spout_nozzle"
 	},
 	"elements": [
 		{

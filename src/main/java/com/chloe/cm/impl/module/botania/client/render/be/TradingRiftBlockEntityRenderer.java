@@ -301,7 +301,7 @@ public class TradingRiftBlockEntityRenderer extends KineticBlockEntityRenderer<T
         float time = (float) ClientTickHandler.ticksInGame + partialTicks;
         int activeAlpha = (int) (178.5f + 25.5f * Math.sin(time * 0.05f));
         
-        CachedBuffers.partial(block("trading_rift"), be.getBlockState())
+        CachedBuffers.partial(block("rift"), be.getBlockState())
             .light(light)
             .color(255, 255, 255, activeAlpha)
             .renderInto(ms, buffer.getBuffer(RenderType.translucent()));
@@ -393,7 +393,7 @@ public class TradingRiftBlockEntityRenderer extends KineticBlockEntityRenderer<T
             
             int flickerAlpha = (int) (178f * combined);
             
-            CachedBuffers.partial(block("trading_rift"), be.getBlockState())
+            CachedBuffers.partial(block("rift"), be.getBlockState())
                 .light(light)
                 .color(255, 255, 255, flickerAlpha)
                 .renderInto(ms, buffer.getBuffer(RenderType.translucent()));

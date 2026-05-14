@@ -120,7 +120,7 @@ public class CMBotaniaModule implements IModule {
         event.register(CMConstants.modLoc("block/botania/spout/middle"));
         event.register(CMConstants.modLoc("block/botania/spout/bottom"));
         event.register(CMConstants.modLoc("block/shaft_tiny"));
-        event.register(CMConstants.modLoc("block/trading_rift"));
+        event.register(CMConstants.modLoc("block/rift"));
     }
     
     public static void registerLayerDefinition(EntityRenderersEvent.RegisterLayerDefinitions event) {

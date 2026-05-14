@@ -360,7 +360,7 @@ public class AutoTerraPlateBlockEntityRenderer extends KineticBlockEntityRendere
     
     private void renderRotatingTerra(float worldTime, PoseStack ms, VertexConsumer vc, int light, int overlay) {
         ms.pushPose();
-        ms.translate(0.5f, -0.85f, -0.5);
+        ms.translate(0.5f, -0.9f, -0.5);
         
         ms.mulPose(RotationHelper.rotateAxis(new Vec3(0, 1, 0), worldTime));
         
