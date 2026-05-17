@@ -5,9 +5,9 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "create_mechanized.refmap.json",
   "mixins": [
-    "DepotBehaviourAccessor",
-    "ProcessingRecipeBuilderAccessor",
-    "ProcessingRecipeParamsAccessor",
+    "create.DepotBehaviourAccessor",
+    "create.ProcessingRecipeBuilderAccessor",
+    "create.ProcessingRecipeParamsAccessor",
     "ReloadableServerResourcesMixin",
     "botania.PylonBlockEntityAccessor",
     "botania.PylonBlockEntityMixin",

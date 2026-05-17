@@ -65,7 +65,6 @@ side = "BOTH"
 modId = "create"
 mandatory = true
 versionRange = "[6.0.8-289, 7)"
-ordering="AFTER"
 [[dependecies."${mod_id}"]]
 modId = "botania"
 mandatory = false

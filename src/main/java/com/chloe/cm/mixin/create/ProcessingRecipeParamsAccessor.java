@@ -1,4 +1,4 @@
-package com.chloe.cm.mixin;
+package com.chloe.cm.mixin.create;
 
 import com.simibubi.create.content.processing.recipe.ProcessingOutput;
 import com.simibubi.create.content.processing.recipe.ProcessingRecipeBuilder;

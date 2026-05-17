@@ -1,5 +1,6 @@
 package com.chloe.cm.impl.recipe;
 
+import com.chloe.cm.CreateMechanized;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.world.Container;
@@ -27,6 +28,7 @@ public class RecipeInjector {
         ArrayList<Recipe<?>> recipes = new ArrayList<>(manager.getRecipes());
         
         for (InjectedRecipe<?, ?, ?, ?> recipe : adaptedRecipes.values()) {
+            CreateMechanized.LOGGER.info("[Create: Mechanized]: Injecting recipes for type: {}", recipe.oldType());
             processInjectedRecipe(recipe, manager, recipes, access);
         }
         

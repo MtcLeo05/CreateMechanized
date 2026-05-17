@@ -1,4 +1,4 @@
-package com.chloe.cm.mixin;
+package com.chloe.cm.mixin.create;
 
 import com.simibubi.create.content.kinetics.belt.transport.TransportedItemStack;
 import com.simibubi.create.content.logistics.depot.DepotBehaviour;
