@@ -1,7 +1,16 @@
 {
   "values": [
-    "create:blaze_burner",
-    "create:lit_blaze_burner",
-    "createlowheated:basic_burner"
+    {
+      "id": "create:blaze_burner",
+      "required": false
+    },
+    {
+      "id": "create:lit_blaze_burner",
+      "required": false
+    },
+    {
+      "id": "createlowheated:basic_burner",
+      "required": false
+    }
   ]
 }

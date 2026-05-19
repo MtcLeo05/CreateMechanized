@@ -27,35 +27,35 @@ public class CMBlockTagGenerator extends BlockTagsProvider {
     
     private void botania() {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
-            .add(CMBotaniaBlocks.MANA_SPOUT.get())
-            .add(CMBotaniaBlocks.MANA_PEDESTAL.get())
-            .add(CMBotaniaBlocks.AUTO_TERRA_PLATE.get())
-            .add(CMBotaniaBlocks.TRADING_RIFT.get())
-            .add(CMBotaniaBlocks.TRADE_MANA_PEDESTAL.get())
+            .addOptional(CMBotaniaBlocks.MANA_SPOUT.getId())
+            .addOptional(CMBotaniaBlocks.MANA_PEDESTAL.getId())
+            .addOptional(CMBotaniaBlocks.AUTO_TERRA_PLATE.getId())
+            .addOptional(CMBotaniaBlocks.TRADING_RIFT.getId())
+            .addOptional(CMBotaniaBlocks.TRADE_MANA_PEDESTAL.getId())
         ;
     }
     
     private void tconstruct() {
         this.tag(TinkerTags.Blocks.FUEL_TANKS)
-            .add(AllBlocks.BLAZE_BURNER.get())
-            .add(AllBlocks.LIT_BLAZE_BURNER.get())
-            .add(zeh.createlowheated.AllBlocks.BASIC_BURNER.get())
+            .addOptional(AllBlocks.BLAZE_BURNER.getId())
+            .addOptional(AllBlocks.LIT_BLAZE_BURNER.getId())
+            .addOptional(zeh.createlowheated.AllBlocks.BASIC_BURNER.getId())
         ;
         
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
-            .add(CMTinkersConstructBlocks.SEARED_BURNER.get())
+            .addOptional(CMTinkersConstructBlocks.SEARED_BURNER.getId())
         ;
         
         this.tag(TinkerTags.Blocks.SMELTERY_WALL)
-            .add(CMTinkersConstructBlocks.SEARED_BURNER.get())
+            .addOptional(CMTinkersConstructBlocks.SEARED_BURNER.getId())
         ;
         
         this.tag(TinkerTags.Blocks.SMELTERY)
-            .add(CMTinkersConstructBlocks.SEARED_BURNER.get())
+            .addOptional(CMTinkersConstructBlocks.SEARED_BURNER.getId())
         ;
         
         this.tag(TinkerTags.Blocks.SMELTERY_TANKS)
-            .add(CMTinkersConstructBlocks.SEARED_BURNER.get())
+            .addOptional(CMTinkersConstructBlocks.SEARED_BURNER.getId())
         ;
     }
 }

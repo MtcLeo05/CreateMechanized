@@ -1,5 +1,8 @@
 {
   "values": [
-    "create_mechanized:seared_burner"
+    {
+      "id": "create_mechanized:seared_burner",
+      "required": false
+    }
   ]
 }

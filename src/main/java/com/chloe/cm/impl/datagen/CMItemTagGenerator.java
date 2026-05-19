@@ -30,7 +30,7 @@ public class CMItemTagGenerator extends ItemTagsProvider {
     
     private void tconstruct() {
         this.tag(TinkerTags.Items.SMELTERY)
-            .add(CMTinkersConstructBlocks.SEARED_BURNER.get().asItem())
+            .addOptional(CMTinkersConstructBlocks.SEARED_BURNER.getId())
         ;
     }
 }
