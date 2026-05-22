@@ -1,5 +1,6 @@
 package com.chloe.cm.impl.module.tconstructclh.handler;
 
+import com.chloe.cm.impl.module.tconstruct.CMTinkersConstructModule;
 import com.chloe.cm.impl.module.tconstruct.init.CMTinkersConstructFluids;
 import com.simibubi.create.content.processing.burner.BlazeBurnerBlock;
 import net.minecraft.world.level.material.Fluid;
@@ -76,7 +77,7 @@ public class BasicBurnerHeatFluidHandler implements IFluidHandler {
         
         if (heat == BlazeBurnerBlock.HeatLevel.valueOf("SMOULDERING") ||
             heat == BlazeBurnerBlock.HeatLevel.valueOf("FADING") ||
-            heat == BlazeBurnerBlock.HeatLevel.valueOf("LOW")) {
+            CMTinkersConstructModule.isLow(heat)) {
             mb = 1;
             return;
         }
@@ -99,7 +100,7 @@ public class BasicBurnerHeatFluidHandler implements IFluidHandler {
         
         if (heat == BlazeBurnerBlock.HeatLevel.valueOf("SMOULDERING") ||
             heat == BlazeBurnerBlock.HeatLevel.valueOf("FADING") ||
-            heat == BlazeBurnerBlock.HeatLevel.valueOf("LOW")) {
+            CMTinkersConstructModule.isLow(heat)) {
             return CMTinkersConstructFluids.LIQUID_LOW_HEAT_FLUID.get();
         }
         

@@ -116,7 +116,7 @@ public class SearedBurnerBlock extends HorizontalDirectionalBlock implements IBE
         boolean forceOverflow = !(player instanceof FakePlayer);
         
         if(heldItem.is(AllTags.AllItemTags.WRENCH.tag)) {
-            BlockEntityHelper.get(SearedBurnerBlockEntity.class, world, pos).ifPresent((te) -> te.increaseMode());
+            BlockEntityHelper.get(SearedBurnerBlockEntity.class, world, pos).ifPresent(SearedBurnerBlockEntity::increaseMode);
         }
         
         InteractionResultHolder<ItemStack> res =

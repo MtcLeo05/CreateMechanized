@@ -6,6 +6,7 @@ import com.chloe.cm.impl.config.Config;
 import com.chloe.cm.impl.module.tconstruct.client.render.be.SearedBurnerBlockEntityRenderer;
 import com.chloe.cm.impl.module.tconstruct.handler.BlazeBurnerHeatFluidHandler;
 import com.chloe.cm.impl.module.tconstruct.init.*;
+import com.simibubi.create.content.processing.burner.BlazeBurnerBlock;
 import com.simibubi.create.content.processing.burner.BlazeBurnerBlockEntity;
 import net.createmod.ponder.foundation.PonderIndex;
 import net.minecraft.core.Direction;
@@ -118,5 +119,11 @@ public class CMTinkersConstructModule implements IModule {
         
         event.addCapability(id, provider);
         event.addListener(fluidHandler::invalidate);
+    }
+    
+    public static boolean isLow(BlazeBurnerBlock.HeatLevel heat) {
+        if(ModList.get().isLoaded("createlowheated")) return heat == BlazeBurnerBlock.HeatLevel.valueOf("LOW");
+        
+        return false;
     }
 }
